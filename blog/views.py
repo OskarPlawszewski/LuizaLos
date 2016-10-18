@@ -6,6 +6,9 @@ from models import Post
 from .forms import PostForm
 
 
+def main(request):
+    return render(request, 'blog/main_page.html', {})
+
 
 def post_list(request):
     posts = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
