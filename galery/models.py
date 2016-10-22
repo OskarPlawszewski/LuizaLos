@@ -1,8 +1,12 @@
 from django.db import models
+from django.db.models.fields.files import ImageField
+from PIL import Image
 
-
-class Picture(models.Model):
-    author = models.ForeignKey('auth.User')
-    title = models.CharField(max_length=200)
-
-# Create your models here.
+class Photo(models.Model):
+    caption = models.CharField(max_length=64, blank=True)
+    blob = ImageField(
+        upload_to='BlobStorage',
+        max_length=255,
+        blank=False,
+    )
+    # serving_url = models.URLField()
