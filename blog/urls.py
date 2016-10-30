@@ -3,7 +3,7 @@ from . import views
 import galery.views
 
 urlpatterns = [
-    url(r'^$', views.main, name='main'),
+    url(r'^$', galery.views.photo_latest, name='main'),
     url(r'^main/', views.main, name='main'),
     # url(r'^galery/', views.main, name='main'),
     url(r'^about/', views.about, name='about'),
