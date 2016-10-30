@@ -3,9 +3,11 @@
 {% block content %}
     {% for photo in photos %}
     {% if photo.image %}
-
+    <div style=" margin: 10%;">
         <img src="{{ photo.image.url }}" class="img-responsive" />
-
+        <h1> {{ photo.title }} </h1>
+        <p> {{ photo.desctiption }} </p>
+    </div>
     {% endif %}
     {% endfor %}
 {% endblock content %}
