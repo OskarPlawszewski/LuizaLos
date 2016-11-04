@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'blog',
     'galery',
     'events',
-    'luizalos',
 ]
 
 MIDDLEWARE_CLASSES = [
