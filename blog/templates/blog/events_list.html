@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for event in future_events %}
+        <div class="post">
+            <div class="date">
+                {{ event.published_date }} dupa
+                {{ event }}
+            </div>
+            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ event.title }}</a></h1>
+            <p>{{ event.text|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock content %}

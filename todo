@@ -1,0 +1,14 @@
+galeria:
+-miniaturyzacja grafik
+-strona z galeria
+-detale grafiki
+
+Eventy:
+-osobna appka
+-lista eventow
+-detale eventow
+
+app conf:
+-luiza los jak strona glowna
+ -(przekopiowac blog)
+ -zmienic viewsy tylko do glownego
