@@ -1,12 +1,14 @@
 galeria:
 -miniaturyzacja grafik
+    * wyciagnac fote
+    * foreignkey do foty
 -strona z galeria
 -detale grafiki
+-style
 
 Eventy:
--osobna appka
--lista eventow
 -detale eventow
+-fix styles
 
 app conf:
 -luiza los jak strona glowna

@@ -9,10 +9,10 @@ from datetime import datetime
 def event_list(request):
     all_events = {}
     today = datetime.today()
-    # past_events = Event.objects.filter(end_date__range=["2015-01-01", today]).order_by('published_date')
-    # future_events = Event.objects.filter(end_date__range=[today, "2111-01-01"]).order_by('published_date')
-    future_events = Event.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    # all_events['past_events'] = past_events
+    past_events = Event.objects.filter(end_date__range=["2015-01-01", today]).order_by('published_date')
+    future_events = Event.objects.filter(end_date__range=[today, "2070-01-01"]).order_by('published_date')
+    # future_events = Event.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
+    all_events['past_events'] = past_events
     all_events['future_events'] = future_events
     return render(request, 'blog/events_list.html', all_events)
 

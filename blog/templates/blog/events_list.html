@@ -1,14 +1,31 @@
 {% extends 'blog/base.html' %}
 
 {% block content %}
+<h1>future events:</h1>
     {% for event in future_events %}
+    <div style="margin-top:50px;">
         <div class="post">
             <div class="date">
-                {{ event.published_date }} dupa
+                {{ event.published_date }}
                 {{ event }}
             </div>
-            <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ event.title }}</a></h1>
+            <div style="font-size: 20px"><a href="">{{ event.title }}</a></div>
             <p>{{ event.text|linebreaksbr }}</p>
         </div>
+    </div>
+    {% endfor %}
+<h1>past events:</h1>
+
+    {% for event in past_events %}
+    <div style="margin-top:50px;">
+        <div class="post">
+            <div class="date">
+                {{ event.published_date }}
+                {{ event }}
+            </div>
+            <div style="font-size: 20px"><a href="">{{ event.title }}</a></div>
+            <p>{{ event.text|linebreaksbr }}</p>
+        </div>
+    </div>
     {% endfor %}
 {% endblock content %}
