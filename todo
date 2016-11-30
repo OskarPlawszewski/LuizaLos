@@ -1,7 +1,7 @@
 galeria:
 -miniaturyzacja grafik
-    * wyciagnac fote
-    * foreignkey do foty
+    * automatyzacja
+    * refactor
 -strona z galeria
 -detale grafiki
 -style
