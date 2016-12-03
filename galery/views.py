@@ -1,15 +1,11 @@
 from django.shortcuts import render
-from galery.models import Photo
+from galery.models import Photo, Photo_miniture
 import PIL
-
-
-def shrink_photo(photo):
-    maxsize = (100, 100)
-    return photo.thumbnail(maxsize, PIL.Image.ANTIALIAS)
 
 
 def photo_list(request):
     queryset = Photo.objects.all()
+    # queryset = Photo_miniture.objects.all()
     for i in queryset:
         print(Photo.objects.all().values())
     context = {
