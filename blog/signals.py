@@ -1,6 +1,6 @@
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
-from galery.fill_miniatures_in_db import fill_db
+from galery.create_photo_miniatures import fill_db
 from galery.models import Photo
 
 

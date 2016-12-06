@@ -2,32 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4495e162-ea5e-40e8-b924-67e45e1901e9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20161009_1149.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20161022_1511.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0004_auto_20161029_1829.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0005_auto_20161030_1410.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0006_auto_20161101_1119.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0007_auto_20161104_2157.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0008_auto_20161113_1155.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0009_auto_20161113_1317.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0010_auto_20161113_1318.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0011_auto_20161113_1321.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0012_auto_20161113_1321.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0013_auto_20161113_1342.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0014_auto_20161113_1342.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0015_auto_20161113_1342.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0016_auto_20161113_1343.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0017_auto_20161113_1344.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0018_auto_20161113_1346.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0019_auto_20161113_1348.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/events/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/events/migrations/__init__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/galery/fill_miniatures_in_db.py" afterPath="$PROJECT_DIR$/galery/create_photo_miniatures.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/galery/signals.py" afterPath="$PROJECT_DIR$/blog/signals.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/main_page.html" afterPath="$PROJECT_DIR$/blog/templates/blog/main_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/models.py" afterPath="$PROJECT_DIR$/galery/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/views.py" afterPath="$PROJECT_DIR$/galery/views.py" />
     </list>
     <ignored path="LL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/galery/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="595">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -70,34 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/galery/views.py">
+      <file leaf-file-name="create_photo_miniatures.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/main_page.html">
+      <file leaf-file-name="signals.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/signals.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,14 +114,15 @@
         <option value="$PROJECT_DIR$/blog/templates/blog/main_page.html" />
         <option value="$PROJECT_DIR$/galery/views.py" />
         <option value="$PROJECT_DIR$/galery/models.py" />
+        <option value="$PROJECT_DIR$/galery/create_photo_miniatures.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="912" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +178,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mysite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="galery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -222,6 +221,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\oplawsze\training\blog" />
+      <recent name="C:\Users\oplawsze\training\mysite" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\oplawsze\training\events" />
       <recent name="C:\Users\oplawsze\training\events\migrations" />
@@ -243,7 +246,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LL" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/galery/fill_miniatures_in_db.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\oplawsze\training\galery\create_photo_miniatures.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -427,10 +430,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1612" height="912" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16454892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -465,13 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todo">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -530,13 +526,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/galery/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galery/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -699,48 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/galery/storage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/galery/create_miniatures.py" />
-    <entry file="file://$PROJECT_DIR$/galery/signals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" column="6" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/galery/fill_miniatures_in_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,9 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13345">
           <caret line="824" column="8" selection-start-line="824" selection-start-column="8" selection-end-line="824" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,6 +726,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myvenv/Lib/site-packages/django/core/files/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galery/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/galery/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -788,12 +752,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/signals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galery/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/galery/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        <state relative-caret-position="595">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
