@@ -37,6 +37,7 @@ def fill_db():
             big_photo=photo,
             title=photo.title,
             desctiption=photo.desctiption,
-            image=os.path.basename('/media/' + name_of_file),
+            # image=os.path.basename('/media/' + name_of_file),
+            image=os.path.basename(completeName),
             timestamp=photo.timestamp
         )
