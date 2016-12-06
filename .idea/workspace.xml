@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4495e162-ea5e-40e8-b924-67e45e1901e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/galery/fill_db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/main_page.html" afterPath="$PROJECT_DIR$/blog/templates/blog/main_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/create_photo_miniatures.py" afterPath="$PROJECT_DIR$/galery/create_photo_miniatures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/views.py" afterPath="$PROJECT_DIR$/galery/views.py" />
     </list>
     <ignored path="LL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +58,8 @@
       <file leaf-file-name="create_photo_miniatures.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            <state relative-caret-position="666">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -835,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="666">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
