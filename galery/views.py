@@ -4,14 +4,10 @@ import PIL
 
 
 def photo_list(request):
-    queryset = Photo.objects.all()
-    # queryset = Photo_miniture.objects.all()
-    for i in queryset:
-        print(Photo.objects.all().values())
+    queryset = Photo_miniture.objects.all()
     context = {
         'photos': queryset,
     }
-
     return render(request, 'blog/photo.html', context)
 
 
@@ -20,6 +16,4 @@ def photo_latest(request):
     context = {
         'photo': queryset,
     }
-
     return render(request, 'blog/main_page.html', context)
-# Create your views here.
