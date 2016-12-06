@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4495e162-ea5e-40e8-b924-67e45e1901e9" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/galery/fill_miniatures_in_db.py" afterPath="$PROJECT_DIR$/galery/create_photo_miniatures.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/galery/signals.py" afterPath="$PROJECT_DIR$/blog/signals.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/models.py" afterPath="$PROJECT_DIR$/galery/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/galery/create_photo_miniatures.py" afterPath="$PROJECT_DIR$/galery/create_photo_miniatures.py" />
     </list>
     <ignored path="LL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="create_photo_miniatures.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="374">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -430,7 +428,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1641318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -790,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/galery/create_photo_miniatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
