@@ -21,11 +21,10 @@ def fill_db():
     """
     Photo_miniture.objects.all().delete()
     for photo in Photo.objects.all():
-        save_path = MEDIA_FILES_PATH
         img = Image.open(photo.image)
         img.thumbnail(SIZE, Image.ANTIALIAS)
         name_of_file = photo.title + 'mini.jpg'
-        completeName = os.path.join(save_path, name_of_file)
+        completeName = os.path.join(MEDIA_FILES_PATH, name_of_file)
         img.save(completeName, "JPEG")
         # print(platform)
         # print(os.path.abspath(photo.image))
@@ -38,6 +37,6 @@ def fill_db():
             title=photo.title,
             desctiption=photo.desctiption,
             # image=os.path.basename('/media/' + name_of_file),
-            image=os.path.basename(name_of_file),
+            image=os.path.abspath(completeName),
             timestamp=photo.timestamp
         )
