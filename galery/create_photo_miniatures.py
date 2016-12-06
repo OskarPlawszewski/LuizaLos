@@ -7,7 +7,7 @@ from galery.models import Photo, Photo_miniture
 if platform == "win32":
     MEDIA_FILES_PATH = r'C:\Users\oplawsze\media_files'
 if platform == 'linux':
-    MEDIA_FILES_PATH = r'/home/Oskar/LuizaLos/'
+    MEDIA_FILES_PATH = r'/home/Oskar/media_files/'
 
 
 SIZE = 128, 128
