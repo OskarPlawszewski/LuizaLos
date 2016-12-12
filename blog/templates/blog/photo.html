@@ -3,11 +3,13 @@
 {% block content %}
     {% for photo in photos %}
     {% if photo.image %}
+    <a href="{% url 'photo_detail' pk=photo.big_photo.pk %}">
     <div style=" margin: 10%;">
         <img style="max-height:200px;height: expression(this.height > 200 ? 200: true; max-width:200px;width: expression(this.width > 200 ? 200: true);" src="{{ photo.image.url }}" class="img-responsive">
         <h1> {{ photo.title }} </h1>
         <p> {{ photo.desctiption }} </p>
     </div>
+    </a>
     {% endif %}
     {% endfor %}
 {% endblock content %}

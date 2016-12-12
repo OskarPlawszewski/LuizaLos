@@ -1,6 +1,22 @@
 from django.shortcuts import render
 from galery.models import Photo, Photo_miniture
+from django.shortcuts import get_object_or_404
+
 import PIL
+
+
+def post_detail(request, pk):
+    post = get_object_or_404(Photo, pk=pk)
+    return render(request, 'blog/photo_detail.html', {'photo': post})
+
+
+def photo_detail(request, pk):
+    # queryset = Photo.objects.get(pk=pk)
+    queryset = get_object_or_404(Photo, pk=pk)
+    context = {
+        'photo': queryset,
+    }
+    return render(request, 'blog/photo_detail.html', context)
 
 
 def photo_list(request):

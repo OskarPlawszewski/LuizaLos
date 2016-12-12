@@ -20,4 +20,6 @@ urlpatterns = [
     url(r'^events/(?P<pk>\d+)/edit/$', events.views.event_edit, name='post_edit'),
 
     url(r'^galery/', galery.views.photo_list, name='photo'),
+    # url(r'^photo/', galery.views.photo_detail, name='photo_detail'),
+    url(r'^photo/(?P<pk>\d+)/$', galery.views.photo_detail, name='photo_detail'),
 ]

@@ -1,0 +1,14 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+    <div class="post" style="margin:30px; margin-top: 20%;">
+
+    {% if photo.image %}
+        <p> {{ photo.image.title }}</p>
+        <img src="{{ photo.image.url }}" class="img-responsive" />
+        <h1> {{ photo.title }} </h1>
+        <p> {{ photo.desctiption }} </p>
+    {% endif %}
+    </div>
+{% endblock %}

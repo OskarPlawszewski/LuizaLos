@@ -1,14 +1,31 @@
+
 galeria:
+
+-detale grafiki
+    *url
+    *views
+    *templatka
+
 -miniaturyzacja grafik
+    * fix urls
+    * deploy
     * automatyzacja
     * refactor
+    * deploy
+
 -strona z galeria
--detale grafiki
--style
+    *templatka
+
+
 
 Eventy:
+
 -detale eventow
 -fix styles
+
+
+
+Refactor:
 
 app conf:
 -luiza los jak strona glowna
