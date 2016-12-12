@@ -5,6 +5,7 @@ galeria:
     *return button
     *next
     *previous button
+    *center image
 
 -miniaturyzacja grafik
     * fix urls
