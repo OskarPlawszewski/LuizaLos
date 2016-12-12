@@ -2,9 +2,9 @@
 galeria:
 
 -detale grafiki
-    *url
-    *views
-    *templatka
+    *return button
+    *next
+    *previous button
 
 -miniaturyzacja grafik
     * fix urls
@@ -13,8 +13,8 @@ galeria:
     * refactor
     * deploy
 
--strona z galeria
-    *templatka
+-galeria
+    *szachownica grafik
 
 
 
