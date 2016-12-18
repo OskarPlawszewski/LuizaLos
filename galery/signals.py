@@ -7,3 +7,8 @@ from galery.fill_db import fill_db
 @receiver(signals.post_save, sender=Photo)
 def handle_pronto_for_user_statistics(sender, **kwargs):
     fill_db()
+
+
+@receiver(signals.post_delete, sender=Photo)
+def handle_pronto_for_user_statistics(sender, **kwargs):
+    fill_db()
