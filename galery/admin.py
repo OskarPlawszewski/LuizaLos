@@ -1,7 +1,7 @@
 from django.contrib import admin
 from galery.models import Photo
 from galery.models import Photo_miniture
-import galery.signals
+from galery import signals
 
 
 class PhotoAdmin(admin.ModelAdmin):
