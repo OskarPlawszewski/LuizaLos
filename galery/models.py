@@ -20,7 +20,7 @@ class Photo(models.Model):
 
 
 class Photo_miniture(models.Model):
-    big_photo = models.ForeignKey(Photo, null=True)
+    big_photo = models.ForeignKey(Photo, null=True) # this should be one to one
     title = models.CharField(max_length=100)
     desctiption = models.CharField(max_length=100)
     width = models.IntegerField(default=0)
