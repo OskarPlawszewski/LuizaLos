@@ -1,1 +1,1 @@
-from django.db.models import signals
+default_app_config = 'galery.apps.GaleryConfig'
